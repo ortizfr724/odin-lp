@@ -1,0 +1,48 @@
+/* CSS Directory
+
+-- between line-numbers 
+-- line-number -- Header and links
+-- line-number -- Hero heading with sub-text image placeholder
+-- line-number -- Informational section with illustration image and text
+-- line-number -- Inspirational quote 
+-- line-number -- Call to action placeholder
+-- line-number -- Footer copyright information The Odin Project website
+
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: Roboto;
+    src: url(../odin-lp/resources/Roboto/Roboto-Medium.ttf);
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-container {
+
+}
+
+.logo {
+
+}
+
+.right-links {
+
+}
+
+
+
