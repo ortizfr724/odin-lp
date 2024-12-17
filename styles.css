@@ -1,9 +1,9 @@
 /* CSS Directory
 
 -- between line-numbers 
--- line- 37  -- Header & links
--- line- 57  -- Hero heading with sub-text image placeholder
--- line-number -- Informational section with illustration image and text
+-- line- 39  -- Header & links
+-- line- 59  -- Hero heading with sub-text image placeholder
+-- line-number -- Informational section with illustration image and text  
 -- line-number -- Inspirational quote 
 -- line-number -- Call to action placeholder
 -- line-number -- Footer copyright information The Odin Project website
@@ -30,6 +30,10 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+figcaption {
+  color: #e882f1;
 }
 
 /* Header & links */
@@ -69,19 +73,19 @@ a {
   width: 425px;
   font-weight: 900;
   color: #F9FAF8;
-  padding: 25px;
+  padding: 15px;
   margin: 0 auto;
 }
 
 .tech-humor {
   font-size: 18px;
   width: 425px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #E5E7EB;
-  
+  padding: 3px;
 }
 
-.btn-hero {
+.btn-hero, .btn-call {
   background-color: #3882F6;
   border: 1px solid #E5E7EB;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, .06);
@@ -104,8 +108,108 @@ a {
     
 }
 
-figcaption {
-  color: #e882f1;
+/* Informational section with illustration image and text */
+
+.learning-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+  margin: 20px; 
+}
+
+.info-container {
+  height: 355px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 250px ;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  box-shadow: 13px 13px 20px rgba(137, 207, 240, .08);
+  align-items: center;
+}
+
+.caption {
+  width: 260px;
+  font-size: 16px;
+  color: #1F2937;
+  text-align: justify;
+  padding-top: 8px;
+  margin-bottom: 60px;
+}
+
+.container-quote {
+  background-color: #E5E7EB;
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.quote {
+  src: url(resources/Roboto/Roboto-LightItalic.ttf);
+  color: rgba( 31, 41, 55, 0.8);
+  font-size: 36px;
   
+  margin: 50px;
+}
+
+.author {
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+/* 
+.action-container {
+  height: 400px;
+  padding: 50px;
+  margin: 50px;
+}
+
+.call-left {
+  background-color: #3882F6;
+  width: auto;
+  height: 200px;
+  font-size: 18px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.its-time {
+  width: 400px;
+  display: flex;
+  align-items: center;
+} */
+
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.copyright {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.odin {
+  color: #3882F6;
+}
+
+.odin:hover {
+  color: #e882f1;
 }
 
