@@ -1,8 +1,8 @@
 /* CSS Directory
 
 -- between line-numbers 
--- line-number -- Header and links
--- line-number -- Hero heading with sub-text image placeholder
+-- line- 37  -- Header & links
+-- line- 57  -- Hero heading with sub-text image placeholder
 -- line-number -- Informational section with illustration image and text
 -- line-number -- Inspirational quote 
 -- line-number -- Call to action placeholder
@@ -10,7 +10,7 @@
 
 */
 
-html {
+* {
     box-sizing: border-box;
     font-family: Roboto;
     src: url(../odin-lp/resources/Roboto/Roboto-Medium.ttf);
@@ -32,17 +32,80 @@ a {
     color: #E5E7EB;
 }
 
-.header-container {
+/* Header & links */
 
+.header-container {
+  background-color: #1F2937;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
-
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .right-links {
-
+  display: inline-flex;
+  gap: 24px;
 }
 
+/* Hero heading with sub-text image placeholder */
 
+.hero-container {
+  background-color: #1F2937;
+  height: 325px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  padding: 20px;
+}
+
+.heading-awesome {
+  font-size: 48px;
+  width: 425px;
+  font-weight: 900;
+  color: #F9FAF8;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.tech-humor {
+  font-size: 18px;
+  width: 425px;
+  font-weight: lighter;
+  color: #E5E7EB;
+  
+}
+
+.btn-hero {
+  background-color: #3882F6;
+  border: 1px solid #E5E7EB;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .06);
+  width: 155px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #F9FAF8;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.btn-hero:hover {
+  background-color: #86aef0;
+  color: #073074;
+}
+
+.laptop-right {
+  padding: 28px;
+  margin: 0 auto;
+    
+}
+
+figcaption {
+  color: #e882f1;
+  
+}
 
